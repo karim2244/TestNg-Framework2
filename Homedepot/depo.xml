@@ -1,0 +1,14 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "regressiontest">
+<parameter name = "url" value = "https://www.facebook.com"></parameter>
+<listeners>
+<listener class-name="Commoncode.baseclass"></listener>
+</listeners>
+<test name = "test1">
+<parameter name = "brow" value = "Chrome"></parameter>
+<classes>
+<class name = "Regression.NewTest2"></class>
+</classes>
+</test>
+</suite>
